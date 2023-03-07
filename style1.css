@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(imagens/chalkboard.jpg);
+    
+}
+.all{
+    width: 350px;
+    height: 0px;
+    margin:auto;
+    text-align: center;
+}
+.container_g {
+    background-color: rgba(255, 255, 255, 0.39);
+    padding: 30px;
+    border-radius: 20px; 
+}
+.text{
+        font-family: 'Rajdhani', sans-serif;
+        margin-top: 20px;
+        font-size: 20px;
+}

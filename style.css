@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(imagens/chalkboard.jpg);
+    
+}
+.img_principal{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.all{
+    width: 350px;
+    height: 0px;
+    margin:auto;
+    text-align: center;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.tituloname{
+    margin-top: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 70px;
+}
+.sub_title2 {
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 0px;
+    font-size: 17px;
+    color: white;
+}
+.sub_title3 {
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: white;
+}
+.container_g {
+    background-color: rgba(255, 255, 255, 0.39);
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+.container_p {
+    width: 270px;
+    height: 130px;
+    padding: 10px 10px 0px 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.726);
+    transition: transform 0.5s;
+}
+.container_p2 {
+    margin-top: 10px;
+    width: 270px;
+    height: 130px;
+    padding: 10px 10px 0px 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.726);
+    transition: transform 0.5s;
+}
+.container_p22 {
+    margin-top: 10px;
+    width: 270px;
+    height: 100px;
+    padding: 10px 10px 0px 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.726);
+    transition: transform 0.5s;
+}
+
+.container_p:hover {
+    transform: scale(1.05);
+    background-color: rgba(201, 201, 201, 0.726);
+    box-shadow: 1px 1px 5px rgb(59, 59, 59);
+}
+.container_p2:hover {
+    transform: scale(1.05);
+    background-color: rgba(201, 201, 201, 0.726);
+    box-shadow: 1px 1px 5px rgb(59, 59, 59);
+    
+}
+.container_p22:hover {
+    transform: scale(1.05);
+    background-color: rgba(201, 201, 201, 0.726);
+    box-shadow: 1px 1px 5px rgb(59, 59, 59);
+    
+}
+.img_insta{
+    float: left;
+}
+.instagram_nome{
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.instagram_nome1{
+    font-family: 'Rajdhani', sans-serif;
+    margin-top:20px;
+    font-size: 35px;
+}
+.instagram_nome2{
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 40px;
+}
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.233);
+}
+.foot_text {
+    font-size: 20px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
